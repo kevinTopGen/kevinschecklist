@@ -1,0 +1,85 @@
+.CategoryPane {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    width: 300px;
+    top: 0;
+    box-shadow: 0px 0px 8px rgb(170, 170, 170);
+}
+
+.CategoryTitle {
+    text-align: left;
+    font-size: 26px;
+    padding-left: 16px;
+    font-weight: 800;
+    font-family: Helvetica, Arial;
+    color: white;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 16px;
+}
+    
+.CategoriesLabel {
+    font-size: 12px;
+    font-weight: 800;
+    padding-left: 16px;
+    padding-top: 20px;
+    margin: 0px;
+    text-align: left;
+    color: rgb(27, 27, 27);
+    margin-bottom: 8px;
+}
+
+.CategoryLabel {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 16px 10px 16px;
+    margin: 0;
+    text-align: left;
+    background-color: white;
+    color: rgb(32, 32, 32);
+}
+
+.CategoryLabelSelected {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 16px 10px 16px;
+    margin: 0;
+    text-align: left;
+    background-color: #d9f4ff;
+    color: rgb(32, 32, 32);
+}
+
+.AddNewCategory {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px 10px 16px;
+    margin: 0;
+    text-align: left;
+    background-color: white;
+    color: #3fa2c0;
+    border: 0px;
+    
+}
+.AddNewCategory:hover {
+    cursor: pointer;
+}
+
+.AddNewCategory::placeholder {
+    color: #3fa2c0;
+}
+
+.AddNewCategory:focus::placeholder {
+    color: white;
+}
+
+.AddNewCategory:focus {
+    outline: none;
+}
+
+
